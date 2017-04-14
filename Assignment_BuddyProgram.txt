@@ -1,0 +1,27 @@
+DR Buddy program assignment - Online Shopping Portal
+
+- Required pages  - 
+	- login page and signup page
+	- homepage
+	- order confirmation page
+	- thank you page
+	- order history page
+
+- Minimum Database entities - User, Product, Order, etc.
+
+- Abstract - Homepage will be displayed initially. Homepage contains all the product catalog. Each of the product individually contains the 'Buy' button(Quick buy buttons). If a user needs to buy a product he/she needs to first login into the portal. If user is not logged in and he/she selects to buy a product from the catalog he/she will be redirected to login page. After confirming the order on order confirmation page, thank you page will be displayed. Every page should contain login/signup or order history button based on the login status of the user. User account page is similar to homepage with the order history button. 
+	Flow :
+			 Homepage 
+				-> Order confirmation page
+					-> Thank you page
+	Independent pages : Login page, Signup page, Order history page
+	
+- Note:
+		1. Collections should be used wherever necessary like products and order history could be retrieved using collections(Generics).
+		2. All exceptions should be handled and write custom exception like if user buys the product without performing the login. 
+		3. Proper logging(Only using Log4j) should be displayed on server.
+		4. JUnits must be written providing at least 70% code coverage.
+		5. Spring MVC framework should be used.
+		6. Focus should be on backend technology. For frontend simple JSP pages will do.
+		7. We should be using the Java 1.8 features wherever possible
+		8. Timeline is 1 week for the assignment
